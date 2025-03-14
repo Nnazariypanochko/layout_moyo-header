@@ -1,33 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --primary-blue: #00acdc;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   /* stylelint-disable-next-line font-family-name-quotes */
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 12px;
-
   text-transform: uppercase;
-  color: black;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-
   background: #fff;
   padding: 0 50px;
-}
-
-.logo {
-  margin-top: 10px;
+  align-items: center;
 }
 
 .logo-link {
-  padding: 0;
+  height: 40px;
 }
 
 .nav-container {
@@ -35,6 +32,8 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
+
+  font-size: 12px;
 }
 
 .nav-item {
@@ -54,6 +53,7 @@ body {
   display: inline-block;
   padding: 22.5px 0;
   text-decoration: none;
+  color: black;
 }
 
 .nav-link:hover {
