@@ -62,7 +62,7 @@ body {
 
 .is-active {
   position: relative;
-  color:;
+  color: var(--primary-blue);
 }
 
 .is-active::after {
